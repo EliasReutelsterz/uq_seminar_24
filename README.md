@@ -10,7 +10,7 @@ Stochastic PDEs. Cambridge Texts in Applied Mathematics. Cambridge University Pr
 </div>
 
 <div style="text-align: center;">
-    <img src="images/turning_bands_sample_e_3.png?raw=true" alt="Turning band Whittle-Matérn" width="350"/>
+    <img src="images/turning_bands_sample_e_3.png?raw=true" alt="Turning band Bessel covariance" width="350"/>
 </div>
 
 <div style="text-align: center;">
