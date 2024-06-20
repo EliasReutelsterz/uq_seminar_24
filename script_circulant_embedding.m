@@ -4,7 +4,7 @@ clear all;
 % Run the examples and so on here:
 % example_7_31()
 %example_7_42_A_entries_bigger()
-example_7_42_increasing_m()
+example_7_41()
 
 
 %% Example 7.22 (symmetric BTTB matrices)
@@ -65,6 +65,7 @@ function [X, Y] = circ_cov_sample_2d(C_red, n1, n2)
     Lambda = N * ifft2(C_red);
     d = Lambda(:);
     d_minus = max(-d, 0);
+    disp(['minimal eigenvalue: ', num2str(-max(d_minus))]);
     if (max(d_minus) > 0)
         fprintf('Invalid covariance; Smallest eigenvalue rho(D_minus) = %0.5g \n', -max(d_minus));
     end
